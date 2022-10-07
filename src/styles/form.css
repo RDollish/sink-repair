@@ -1,0 +1,52 @@
+.field {
+    display: flex;
+    flex-direction: column;
+}
+
+#submitRequest {
+    margin: 1rem 0;
+    padding: 0.5rem;
+    background-color: #8FBC8F;
+    color: #556B2F;
+    font-size: 1rem;
+}
+
+.label {
+    font-size: larger;
+}
+
+.input {
+    margin-bottom: 1rem;
+}
+
+.serviceRequests {
+    display: flex;
+    flex-direction: column;
+}
+
+.list_item {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.hammer {
+    background: url('https://iconomator.com/wp-content/uploads/2020/03/hamer-1.png') no-repeat left;
+    padding: 1rem 0 1rem 35px;
+    background-size: 30px 30px;
+    background-color: #DCDCDC;
+}
+
+.hammer2 {
+    background: url('https://iconomator.com/wp-content/uploads/2020/03/hamer-1.png') no-repeat left;
+    padding: 1rem 0 1rem 35px;
+    background-size: 30px 30px;
+    background-color: #F8F8FF;
+}
+
+.request__delete {
+    float: right;
+    background-color: purple;
+    color: white;
+    margin-right: 1rem;
+}
